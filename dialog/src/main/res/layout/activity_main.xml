@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="275dp"
+        android:layout_marginBottom="120dp"
+        android:onClick="onClickShowDialog"
+        android:text="Show dialog"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickTimeDialog"
+        android:text="Time"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="362dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickDateDialog"
+        android:text="Date"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="448dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickProgressDialog"
+        android:text="Progress"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="537dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
